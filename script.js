@@ -97,7 +97,7 @@ const toggleMute = () => {
 
 // Create a new instance and load the wavesurfer
 const wavesurfer = initializeWavesurfer();
-wavesurfer.load('sample.mp3');
+wavesurfer.load('https://drive.google.com/file/d/1LpkreKFQXW_Dc2lXfVcqPgAeJvIR7jUz/view?usp=sharing');
 
 // --------------------------------------------------------- //
 
