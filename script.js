@@ -35,9 +35,9 @@ const togglePlay = () => {
   const isPlaying = wavesurfer.isPlaying();
 
   if (isPlaying) {
-    playButtonIcon.src = 'assets/icons/pause.svg';
+    playButtonIcon.src = 'pause.svg';
   } else {
-    playButtonIcon.src = 'assets/icons/play.svg';
+    playButtonIcon.src = 'play.svg';
   }
 };
 
@@ -85,11 +85,11 @@ const toggleMute = () => {
   const isMuted = wavesurfer.getMute();
 
   if (isMuted) {
-    volumeIcon.src = 'assets/icons/mute.svg';
+    volumeIcon.src = 'mute.svg';
     volumeSlider.disabled = true;
   } else {
     volumeSlider.disabled = false;
-    volumeIcon.src = 'assets/icons/volume.svg';
+    volumeIcon.src = 'volume.svg';
   }
 };
 
