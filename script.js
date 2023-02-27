@@ -97,7 +97,7 @@ const toggleMute = () => {
 
 // Create a new instance and load the wavesurfer
 const wavesurfer = initializeWavesurfer();
-wavesurfer.load('11 Timps 1.wav');
+wavesurfer.load('11 Tom 2.wav');
 
 // --------------------------------------------------------- //
 
