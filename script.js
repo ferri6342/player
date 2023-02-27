@@ -97,7 +97,7 @@ const toggleMute = () => {
 
 // Create a new instance and load the wavesurfer
 const wavesurfer = initializeWavesurfer();
-wavesurfer.load('assets/audio/sample.mp3');
+wavesurfer.load('sample.mp3');
 
 // --------------------------------------------------------- //
 
@@ -128,5 +128,5 @@ wavesurfer.on('audioprocess', () => {
 
 // Resets the play button icon after audio ends
 wavesurfer.on('finish', () => {
-  playButtonIcon.src = 'assets/icons/play.svg';
+  playButtonIcon.src = 'play.svg';
 });
