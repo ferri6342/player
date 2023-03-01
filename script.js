@@ -97,7 +97,7 @@ const toggleMute = () => {
 
 // Create a new instance and load the wavesurfer
 const wavesurfer = initializeWavesurfer();
-wavesurfer.load('https://drive.google.com/file/d/0B3NoMQdNf0QkdXZxcFA3OWd4YU0/view?usp=sharing&resourcekey=0-JuIU9CqjtXmnz8blIkXbKw');
+wavesurfer.load('TEST_SLOWDN.mp3');
 
 // --------------------------------------------------------- //
 
